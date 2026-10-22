@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Ketki Kanade</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JavaScript File -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <!-- Header and Navigation -->
+    <header class="site-header">
+
+        <nav class="nav wrap" aria-label="Main navigation">
+
+            <!-- Website Logo -->
+            <a class="brand" href="index.html">
+                <span class="brand-mark">K</span>
+
+                <span>
+                    ketki<span class="brand-dot">.</span>
+                </span>
+            </a>
+
+            <!-- Mobile Navigation Button -->
+            <button
+                class="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="education.html">Education</a>
+                </li>
+
+                <li>
+                    <a href="skills.html">Skills</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a class="nav-cta active" href="contact.html">
+                        Contact <span>↗</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main class="wrap inner-page">
+
+        <!-- Contact Page Introduction -->
+        <section class="page-hero">
+
+            <p class="eyebrow">
+                <span class="status-dot"></span>
+                SAY HELLO
+            </p>
+
+            <h1>
+                Let’s start a
+                <span class="gradient-text">conversation.</span>
+            </h1>
+
+            <p>
+                Have a question, an idea, or an opportunity?
+                I’d be happy to hear from you.
+            </p>
+
+        </section>
+
+        <!-- Contact Layout -->
+        <section class="contact-layout">
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+
+                <!-- Email -->
+                <article class="contact-detail">
+
+                    <span class="contact-icon purple-icon">
+                        ✉
+                    </span>
+
+                    <div>
+                        <p class="card-kicker">EMAIL ME</p>
+
+                        <a href="mailto:kanadeketaki2@gmail.com">
+                            kanadeketaki2@gmail.com
+                        </a>
+                    </div>
+
+                    <span class="detail-arrow">↗</span>
+
+                </article>
+
+                <!-- Phone Number -->
+                <article class="contact-detail">
+
+                    <span class="contact-icon green-icon">
+                        ⌕
+                    </span>
+
+                    <div>
+                        <p class="card-kicker">CALL ME</p>
+
+                        <a href="tel:+919011016446">
+                            +91 90110 16446
+                        </a>
+                    </div>
+
+                    <span class="detail-arrow">↗</span>
+
+                </article>
+
+                <!-- LinkedIn -->
+                <article class="contact-detail">
+
+                    <span class="contact-icon orange-icon">
+                        in
+                    </span>
+
+                    <div>
+                        <p class="card-kicker">LINKEDIN:- ketaki-kanade-38114732b</p>
+
+                        <a
+                            href="https://www.linkedin.com/in/ketaki-kanade-38114732b"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        
+                        >
+                            Connect professionally
+                        </a>
+                    </div>
+
+                    <span class="detail-arrow">↗</span>
+
+                </article>
+
+                <!-- GitHub -->
+                <article class="contact-detail">
+
+                    <span class="contact-icon pink-icon">
+                        ⌘
+                    </span>
+
+                    <div>
+                        <p class="card-kicker">GITHUB:- Ketki-05</p>
+
+                        <a
+                            href="https://github.com/Ketki-05"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Explore my code
+                        </a>
+                    </div>
+
+                    <span class="detail-arrow">↗</span>
+
+                </article>
+
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" id="contact-form">
+
+                <p class="card-kicker">
+                    SEND A MESSAGE
+                </p>
+
+                <h2>
+                    Write me a note<span class="brand-dot">.</span>
+                </h2>
+
+                <!-- Name Field -->
+                <label for="name">
+                    Your name
+                </label>
+
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="ketki kanade "
+                    required
+                >
+
+                <!-- Email Field -->
+                <label for="email">
+                    Email address
+                </label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="ket@example.com"
+                    required
+                >
+
+                <!-- Message Field -->
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell me a little about it..."
+                    required
+                ></textarea>
+
+                <!-- Submit Button -->
+                <button
+                    class="button button-primary form-submit"
+                    type="submit"
+                >
+                    Open email app <span>↗</span>
+                </button>
+
+                <!-- Form Information -->
+                <p class="form-note">
+                    This form opens your email app with the
+                    message ready to send.
+                </p>
+
+                <!-- Form Status Message -->
+                <p
+                    class="form-status"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer wrap">
+
+        <!-- Footer Logo -->
+        <a class="brand" href="index.html">
+
+            <span class="brand-mark">K</span>
+
+            <span>
+                ketki<span class="brand-dot">.</span>
+            </span>
+
+        </a>
+
+        <!-- Copyright -->
+        <p>
+            Designed with @
+            <span class="year"></span>
+            Ketki Kanade
+        </p>
+
+        <!-- Back to Top -->
+        <a href="#" class="back-top">
+            Back to top ↑
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
